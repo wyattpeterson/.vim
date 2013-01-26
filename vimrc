@@ -17,17 +17,15 @@ map <c-h> <c-w>h
 
 "" unix files are better
 set fileformat=unix
-set filetype=unix
 
 "turn off beeping and flashing
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
 
-
-
 " setup tab completion
 au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
+set completeopt=menuone,longest,preview
 
 """"""""""""""""""""""
 
