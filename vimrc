@@ -23,6 +23,12 @@ set filetype=unix
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
 
+
+
+" setup tab completion
+au FileType python set omnifunc=pythoncomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
+
 """"""""""""""""""""""
 
 
