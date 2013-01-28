@@ -29,6 +29,11 @@ set completeopt=menuone,longest,preview
 
 """"""""""""""""""""""
 
+" An easier mapping for "redo".
+map U <C-R>
+
+
+
 
 highlight Search   ctermfg=NONE  ctermbg=magenta guifg=NONE    guibg=yellow
 
