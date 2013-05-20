@@ -62,7 +62,7 @@ set wrapmargin=0
 set wrapscan
 set nowritebackup
 set matchpairs+=<:>
-set wildmode=list:full
+set wildmode=longest:list
 
 "" Show character undercursor
 set statusline=%<%f%h%m%r%=%b\ 0x%B\ \ %l,%c%V\ %P
