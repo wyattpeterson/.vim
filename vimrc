@@ -86,6 +86,9 @@ colorscheme desert
 " Twig template syntax
 au BufRead,BufNewFile *.tml set filetype=htmldjango
 
+" Hive Query Files
+au BufRead,BufNewFile *.hql set filetype=htmldjango
+
 
 set iskeyword=a-z,A-Z,48-57,_
 
