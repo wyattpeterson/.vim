@@ -27,13 +27,12 @@ au FileType python set omnifunc=pythoncomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
 
+" Fix backspace on FreeBSD
+set backspace=indent,eol,start
 """"""""""""""""""""""
 
 " An easier mapping for "redo".
 map U <C-R>
-
-
-
 
 highlight Search   ctermfg=NONE  ctermbg=magenta guifg=NONE    guibg=yellow
 
