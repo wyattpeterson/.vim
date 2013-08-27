@@ -86,7 +86,7 @@ colorscheme desert
 au BufRead,BufNewFile *.tml set filetype=htmldjango
 
 " Hive Query Files
-au BufRead,BufNewFile *.hql set filetype=htmldjango
+au BufRead,BufNewFile *.hql set filetype=sql
 
 
 set iskeyword=a-z,A-Z,48-57,_
