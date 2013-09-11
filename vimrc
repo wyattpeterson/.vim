@@ -80,7 +80,7 @@ set laststatus=2
 set nocompatible
 
 " Font / colors
-colorscheme desert 
+colorscheme desert
 
 " Twig template syntax
 au BufRead,BufNewFile *.tml set filetype=htmldjango
