@@ -11,6 +11,8 @@ Bundle 'gmarik/vundle'
 
 " my bundles
 Bundle 'Lokaltog/vim-easymotion'
+" pig syntax
+Bundle "motus/pig.vim"
 
 
 " set things back to normal
