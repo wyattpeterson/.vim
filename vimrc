@@ -1,4 +1,3 @@
-execute pathogen#infect()
 
 syntax on
 let mapleader=","
