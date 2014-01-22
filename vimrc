@@ -1,5 +1,23 @@
+" make sure vundle plays nice
+filetype off
+syntax off
 
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" my bundles
+Bundle 'Lokaltog/vim-easymotion'
+
+
+" set things back to normal
 syntax on
+filetype on
+filetype plugin indent on
+
 let mapleader=","
 
 "" use spaces instead of tabs
