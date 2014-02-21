@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-easymotion'
 " pig syntax
 Bundle "motus/pig.vim"
+Bundle 'Valloric/YouCompleteMe'
 
 
 " set things back to normal
