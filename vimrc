@@ -2,18 +2,18 @@
 filetype off
 syntax off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+"set rtp+=~/.vim/bundle/vundle/
+"call vundle#rc()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+"Bundle 'gmarik/vundle'
 
 " my bundles
-Bundle 'Lokaltog/vim-easymotion'
+"Bundle 'Lokaltog/vim-easymotion'
 " pig syntax
-Bundle "motus/pig.vim"
-Bundle 'Valloric/YouCompleteMe'
+"Bundle "motus/pig.vim"
+"Bundle 'Valloric/YouCompleteMe'
 
 
 " set things back to normal
